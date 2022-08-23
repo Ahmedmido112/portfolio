@@ -1,0 +1,136 @@
+*{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    font: weight 700px; 
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #3a6cf4;
+}
+.navigation a{
+    
+    color: #3a6cf4;
+    font-size: 1.1em;
+    font: weight 500px;
+    padding-left: 30px; 
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: blue;
+}
+section{
+    padding: 100px 200px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(IMG_٢٠٢٢٠٧٢٠_١٥٣٩٥٣.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500; 
+}
+.main h2 span{
+    font-size:3em ;
+    color: rgb(0, 81, 255);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+.main h3{
+    color: white;
+    font-weight:700 ;
+    font-size:2em ;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color:white ;
+    background-color:#623af4;
+    font-size:1.1em ;
+    font-weight:600 ;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing:1px ;
+    padding: 0.9375em 2.1875em ;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    
+    background-color:blue ;
+    transform: scale(1.1,1.1);
+    
+}
+.social-icons a{
+    padding-right: 30px;
+    font-size: 1.7em;
+    color: black;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #623af4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
